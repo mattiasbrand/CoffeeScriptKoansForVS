@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoffeeScriptKoansForVS", "src\CoffeeScriptKoansForVS.csproj", "{48FC8873-E3D2-4ED8-B42F-243007C7C53E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{48FC8873-E3D2-4ED8-B42F-243007C7C53E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48FC8873-E3D2-4ED8-B42F-243007C7C53E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48FC8873-E3D2-4ED8-B42F-243007C7C53E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48FC8873-E3D2-4ED8-B42F-243007C7C53E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

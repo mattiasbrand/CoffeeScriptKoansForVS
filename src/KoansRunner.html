@@ -1,0 +1,28 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+  "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+  <title>CoffeeScript Koans</title>
+  <link rel="stylesheet" type="text/css" href="Public/Styles/coffeekoans-jasmine.css">
+  <script type="text/javascript" src="Public/Scripts/jasmine.js"></script>
+  <script type="text/javascript" src="Public/Scripts/jasmine-html.js"></script>
+  <script type="text/javascript" src="Public/Scripts/coffeekoans-jasmine-html.js"></script>
+
+  <script type="text/javascript" src="Koans/AboutExpects.js"></script>
+  <script type="text/javascript" src="Koans/AboutArrays.js"></script>
+  <script type="text/javascript" src="Koans/AboutFunctions.js"></script>
+  <script type="text/javascript" src="Koans/AboutObjects.js"></script>
+  <script type="text/javascript" src="Koans/AboutMutability.js"></script>
+  <script type="text/javascript" src="Koans/AboutHigherOrderFunctions.js"></script>
+  <script type="text/javascript" src="Koans/AboutInheritance.js"></script>
+  <script type="text/javascript" src="Koans/AboutApplyingWhatWeHaveLearnt.js"></script>
+</head>
+<body>
+
+<script type="text/javascript">
+  jasmine.getEnv().addReporter(new CoffeeKoansReporter());
+  jasmine.getEnv().execute();
+</script>
+
+</body>
+</html>
